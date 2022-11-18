@@ -1,0 +1,144 @@
+.cajaGrande {
+    display: flex;
+    background-color: #dfd7d7;
+    width: 842px;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.cuadro1 {
+    display: flex;
+    width: 842px;
+    justify-content: space-evenly;
+    background-color: #ffc267;
+    border-bottom: 8px solid rgb(255, 159, 49);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#informacion {
+    display: flex;
+    color: #C06014;
+
+}
+
+.nombre {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 34px;
+    line-height: 33px;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+img {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 65%;
+    width: 150px;
+    height: 150px;
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.frase {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 15px;
+    align-items: flex-end;
+
+}
+
+.cuadro2 {
+    display: flex;
+    height: 842px;
+    width: 842px;
+    background-color: rgb(245, 248, 252);
+    align-items: stretch;
+    flex-direction: column;
+    border-bottom: 15px;
+
+}
+
+.primerCuadro {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 442px;
+
+}
+
+#educacion {
+    border: 4px dotted rgba(31, 18, 18, 0.527);
+    width: 542px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+
+.tituloEst {
+    color: #C06014;
+}
+
+#especialidades {
+    border: 3px solid rgba(255, 179, 65, 0.44);
+    width: 242px;
+    margin-top: 8px;
+    padding: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #1d1915;
+    background-color: rgba(255, 179, 65, 0.44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    text-align: justify;
+}
+
+.segundoCuadro {
+    display: flex;
+    justify-self: space-around;
+}
+
+#experiencia {
+    display: flex;
+    border: 3px solid rgba(19, 17, 17, 0.541);
+    margin-top: 8px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+
+#competencias {
+    display: flex;
+    border: 3px solid #ffc267;
+    margin-top: 8px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #ffc267;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: left;
+}
+
+progress {
+    color: #C06014;
+}
